@@ -1,0 +1,151 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fdfb;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #2e7d32; /* Deep green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c8e6c9; /* Light green hover */
+}
+
+/* Main Content */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+  color: #2e7d32;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 5px solid #81c784;
+  padding-left: 15px;
+  margin-top: 20px;
+  color: #555;
+  font-style: italic;
+}
+
+/* Footer */
+html {
+        scroll-behavior: smooth;
+      }
+      /* Custom styles for the footer to match the image */
+      .footer-section {
+        background-color: #1a1a1a; /* Dark background color */
+        color: #cccccc; /* Light grey text color */
+        padding: 60px 0;
+        font-size: 0.9rem;
+      }
+      .footer-section .footer-logo {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+      }
+      .footer-section .footer-slogan {
+        font-size: 0.8rem;
+        color: #aaaaaa;
+      }
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .footer-section ul li {
+        margin-bottom: 8px;
+      }
+      .footer-section ul li a {
+        color: #cccccc;
+        text-decoration: none;
+      }
+      .footer-section ul li a:hover {
+        color: #fff;
+      }
+      .footer-section .divider {
+        border-top: 1px solid #444;
+        margin: 40px 0 30px 0;
+      }
+      .footer-section .social-icons .btn {
+        background-color: #333;
+        color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 8px;
+        text-decoration: none;
+      }
+      .footer-section .social-icons .btn:hover {
+        background-color: #555;
+      }
+      .footer-section .copyright {
+        font-size: 0.60rem;
+        margin-top: 20px;
+        color: #aaaaaa;
+      }
+      footer {
+  background-color: #e8f5e9; /* Light green background */
+  color: #2e7d32;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.btn{
+  border: none;
+}
+
+.btn-success {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.btn-success:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+}
